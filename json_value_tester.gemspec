@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
   s.name = 'json_value_tester'
-  s.version = '1.1.2'
+  s.version = '1.1.0'
   s.summary = 'json_value_tester'
   s.description = 'Testing Special JsonValue feature'
-  s.authors = ['testing']
-  s.email = ['test@gmail.com']
+  s.authors = ['APIMatic SDK Generator']
+  s.email = ['support@apimatic.io']
   s.homepage = 'https://apimatic.io'
   s.licenses = ['MIT']
   s.add_dependency('apimatic_core_interfaces', '~> 0.2.1')
