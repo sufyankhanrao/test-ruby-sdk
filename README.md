@@ -18,9 +18,9 @@ Alternatively, you can build and install the gem manually:
 
 1. From terminal/cmd navigate to the root directory of the SDK.
 2. Run the build command: `gem build json_value_tester.gemspec`
-3. Run the install command: `gem install json_value_tester-1.1.0.gem`
+3. Run the install command: `gem install json_value_tester-1.1.2.gem`
 
-![Installing Gem](https://apidocs.io/illustration/ruby?workspaceFolder=JsonValueTester&gemVer=1.1.0&gemName=json_value_tester&step=buildSDK)
+![Installing Gem](https://apidocs.io/illustration/ruby?workspaceFolder=JsonValueTester&gemVer=1.1.2&gemName=json_value_tester&step=buildSDK)
 
 ## Installation
 
@@ -42,15 +42,15 @@ In the next dialog make sure that the correct Ruby SDK is being used (>= 2.6 and
 
 ### 2. Add reference of the gem
 
-In order to use the `json_value_tester` gem in the new project we must add a gem reference. Locate the `Gemfile` in the Project Explorer window under the `TestApp` project node. The file contains references to all gems being used in the project. Here, add the reference to the library gem by adding the following line: `gem 'json_value_tester', '1.1.0'`
+In order to use the `json_value_tester` gem in the new project we must add a gem reference. Locate the `Gemfile` in the Project Explorer window under the `TestApp` project node. The file contains references to all gems being used in the project. Here, add the reference to the library gem by adding the following line: `gem 'json_value_tester', '1.1.2'`
 
-![Add new reference to the Gemfile](https://apidocs.io/illustration/ruby?workspaceFolder=JsonValueTester&gemVer=1.1.0&gemName=json_value_tester&step=addReference)
+![Add new reference to the Gemfile](https://apidocs.io/illustration/ruby?workspaceFolder=JsonValueTester&gemVer=1.1.2&gemName=json_value_tester&step=addReference)
 
 ### 3. Adding a new Rails Controller
 
 Once the `TestApp` project is created, a folder named `controllers` will be visible in the *Project Explorer* under the following path: `TestApp > app > controllers`. Right click on this folder and select `New -> Run Rails Generator...`.
 
-![Run Rails Generator on Controllers Folder](https://apidocs.io/illustration/ruby?workspaceFolder=JsonValueTester&gemVer=1.1.0&gemName=json_value_tester&step=addCode0)
+![Run Rails Generator on Controllers Folder](https://apidocs.io/illustration/ruby?workspaceFolder=JsonValueTester&gemVer=1.1.2&gemName=json_value_tester&step=addCode0)
 
 Selecting the said option will popup a small window where the generator names are displayed. Here, select the `controller` template.
 
@@ -58,7 +58,7 @@ Selecting the said option will popup a small window where the generator names ar
 
 Next, a popup window will ask you for a Controller name and included Actions. For controller name provide `Hello` and include an action named `Index` and click `OK`.
 
-![Add a new Controller](https://apidocs.io/illustration/ruby?workspaceFolder=JsonValueTester&gemVer=1.1.0&gemName=json_value_tester&step=addCode2)
+![Add a new Controller](https://apidocs.io/illustration/ruby?workspaceFolder=JsonValueTester&gemVer=1.1.2&gemName=json_value_tester&step=addCode2)
 
 A new controller class named `HelloController` will be created in a file named `hello_controller.rb` containing a method named `Index`.
 
@@ -78,7 +78,7 @@ rake
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/sufyankhanrao/test-ruby-sdk/tree/1.1.0/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/sufyankhanrao/test-ruby-sdk/tree/1.1.2/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -116,12 +116,12 @@ The SDK can be configured to use a different environment for making API calls. A
 
 ## List of APIs
 
-* [Json Obj](https://www.github.com/sufyankhanrao/test-ruby-sdk/tree/1.1.0/doc/controllers/json-obj.md)
-* [Json Val](https://www.github.com/sufyankhanrao/test-ruby-sdk/tree/1.1.0/doc/controllers/json-val.md)
+* [Json Obj](https://www.github.com/sufyankhanrao/test-ruby-sdk/tree/1.1.2/doc/controllers/json-obj.md)
+* [Json Val](https://www.github.com/sufyankhanrao/test-ruby-sdk/tree/1.1.2/doc/controllers/json-val.md)
 
 ## Classes Documentation
 
-* [Utility Classes](https://www.github.com/sufyankhanrao/test-ruby-sdk/tree/1.1.0/doc/utility-classes.md)
-* [HttpResponse](https://www.github.com/sufyankhanrao/test-ruby-sdk/tree/1.1.0/doc/http-response.md)
-* [HttpRequest](https://www.github.com/sufyankhanrao/test-ruby-sdk/tree/1.1.0/doc/http-request.md)
+* [Utility Classes](https://www.github.com/sufyankhanrao/test-ruby-sdk/tree/1.1.2/doc/utility-classes.md)
+* [HttpResponse](https://www.github.com/sufyankhanrao/test-ruby-sdk/tree/1.1.2/doc/http-response.md)
+* [HttpRequest](https://www.github.com/sufyankhanrao/test-ruby-sdk/tree/1.1.2/doc/http-request.md)
 
